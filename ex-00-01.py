@@ -24,12 +24,15 @@ class No:
                     if aux == self.ult:
                         self.ult = aux.prox
                     self.quant += 1
+         
             
         def somarElementos(self):
             somados = 0
             if self.quant == 0:
                 somados;
-            for self.quant != 
+            pass
+            
+             
         #def removePosicao(self, posicao):
             
             
