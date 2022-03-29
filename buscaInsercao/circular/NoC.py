@@ -1,4 +1,4 @@
 class No:
-    def __init__(self, info, proximo):
+    def __init__(self, info, prox):
         self.info = info
-        self.prox = proximo
+        self.prox = prox

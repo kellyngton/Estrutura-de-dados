@@ -65,13 +65,18 @@ class ListaDSE:
             return True #feedback, operacao executada 
         raise ValueError("{} is not in list".format(posicao))  
          
-        
+        ###FALTA IMPLEMENTAR
     def removerTodas(self, valor):
         #caso a lista estiver vazia
         if self.prim == None:
             raise ValueError("{} is not in list".format(valor))
-        elif 
-        
+        elif self.prim.dado == posicao:
+            self.prim = self.prim.next 
+            self.quant = self.quant - 1 #Decrementando 1 unidade do tamanho da lista
+            return True #feedback, operacao executada  
+        else:
+            antAux= self.prim  
+            aux = self.prim.next
         
     
     def inserirApos(self, valor1, valor2):
@@ -89,4 +94,9 @@ class ListaDSE:
     
     
     def somarElementos(self):
-        pass
+        auxSoma = 0         #variável aux que guarda os valores dos nós
+        aux = self.prim
+        while aux and aux.dado != None: #percorre até que o ultimo nó aponte pra o vazio 
+            aux = aux.prox
+            auxSoma = auxSoma + aux.dado
+        return auxSoma

@@ -10,7 +10,7 @@ remover elemento em uma determinada posição na lista - removerPosicao(posicao)
 remover todas as ocorrências de um determinado elemento na lista - removerTodas(valor)
 
 inserir um elemento após determinado elemento - inserirApos(valor1, valor2)  PS: valor1 = 
-elemento a ser pesquisado na lista e valor2 = o elemento a ser inserido após valor1 
+elemento a ser pesquisado na lista e valor2 = o elemento a ser inserido após valor1  FEITO V
 
 somar todos os elementos da lista - somarElementos() - PS: considerar que os elementos da lista sejam números
 
