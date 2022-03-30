@@ -1,1 +1,0 @@
-Professora, no caso do inserirPosicao() eu considerei passar como parâmetro no mínimo o número 1. Por exemplo, tenho uma lista com posições 0, 1 e 2. Aí como parâmetro do método inserirPosicao() eu poderia passar como os valores 1, 2 ou 3 pra escolher a posição de inserir o elemento. Tem algum problema?
