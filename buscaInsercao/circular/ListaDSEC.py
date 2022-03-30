@@ -15,6 +15,8 @@ class ListaDSEC:
         else:
             while self.ult.prox != posicao: # Percorre até chegar na posição anterior a desejada
                 aux.next 
+                self.prim.prox
+                
                 
     
     
@@ -26,9 +28,9 @@ class ListaDSEC:
     
     def contarPares(self):
         par = 0;
-        aux = self.ult
+        aux = aux.next
         while self.ult.prox != self.prim:
-            aux.next     #falta implementar a atualiza;áo dos ponteiros
+            aux == self.ult.prox     #falta implementar a atualiza;áo dos ponteiros
             if self.info % 2 == 0:
                 par += 1;
         return ('Os pares aparecem {} na lista'.format(par));
